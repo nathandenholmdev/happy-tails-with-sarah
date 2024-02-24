@@ -1,0 +1,16 @@
+What the fuck is robots.text
+Meta tags
+page score shit
+alt tags
+accessibilty 
+the css is not organised
+the html is not organised
+use css vars when the design comes back
+
+add google maps.. or mapbox
+docuseal
+emailme.justify
+analytics
+design pdfs password protect them
+ask mum if she needs to 
+embed with multiple signitures???
