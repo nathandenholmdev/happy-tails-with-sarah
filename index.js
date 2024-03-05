@@ -7,3 +7,6 @@ function mobileMenu() {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 }
+
+var elem = document.getElementById("test");
+elem.setAttribute("data-test", "foo");
