@@ -1,5 +1,8 @@
 @import url("./constants.css");
 
+* {
+}
+
 h1,
 h2,
 h3,
@@ -13,4 +16,47 @@ h1 {
 
 body {
   background-color: var(--color-2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.user-form-wrapper {
+  padding: 24px;
+}
+
+.user-form-wrapper input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  display: inline-block;
+  border: none;
+  background: none;
+  border-bottom: solid 1px var(--dark---d100);
+  padding-top: 32px;
+}
+
+#email-submit {
+  color: var(--dark---d0);
+  background-color: var(--dark);
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.user-form-wrapper div {
+  margin-bottom: 24px;
+}
+
+.user-form-wrapper h1 {
+  margin-bottom: 16px;
 }

@@ -1,0 +1,22 @@
+.footer {
+  background-color: var(--dark---d900);
+  padding: 24px;
+  background-image: url(./paw-print-light.svg);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: left;
+}
+
+.footer h6 {
+  color: var(--dark---d0);
+  margin-bottom: 8px;
+}
+
+.footer a,
+span {
+  color: var(--dark---d50);
+}
+
+.footer div {
+  margin-bottom: 24px;
+}

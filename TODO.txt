@@ -12,7 +12,9 @@ make css more dry
 make spacing var
 make footer.html / footer.css / header.html / header.css
 fix footer
-
+delete assets 
+organise assets
+add correct copy
 add google maps.. or mapbox
 docuseal
 emailme.justify
