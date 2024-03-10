@@ -59,4 +59,10 @@ select {
 
 .user-form-wrapper h1 {
   margin-bottom: 16px;
+  background-image: url(./stoke-orange.svg), url(stroke-blue.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px, 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
