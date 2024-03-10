@@ -4,8 +4,14 @@ page score shit
 alt tags
 accessibilty 
 the css is not organised
-the html is not organised
 use css vars when the design comes back
+
+..
+
+make css more dry
+make spacing var
+make footer.html / footer.css / header.html / header.css
+fix footer
 
 add google maps.. or mapbox
 docuseal

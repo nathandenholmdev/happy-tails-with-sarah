@@ -1,10 +1,16 @@
-input,
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+@import url("./constants.css");
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Champ;
+}
+h1 {
+  font-size: 32px;
+}
+
+body {
+  background-color: var(--color-2);
 }
