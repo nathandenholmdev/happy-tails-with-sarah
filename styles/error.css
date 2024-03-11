@@ -1,0 +1,53 @@
+@import url("./constants.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.error-content-wrapper {
+  padding: 24px;
+  background-color: var(--color-2);
+  height: 100%;
+}
+
+.error-content-wrapper {
+  background-image: url(../assets/paw-print.svg);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+p {
+  margin-bottom: 24px;
+}
+
+button {
+  color: var(--dark---d0);
+  background-color: var(--dark);
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+button a {
+  color: var(--dark---d0);
+}
+
+p a {
+  color: var(--dark---d500);
+  text-decoration: underline;
+}

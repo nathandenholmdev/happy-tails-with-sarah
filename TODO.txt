@@ -9,11 +9,12 @@ emailme.justify
 
 
 make contact me work
-fix footer design/make a tags not inline
+
 address capture user styling
 optional WhatsApp send message
 error.html
 dogwalking.html
 petsitting.html
 desktop/tablet styling
+add loading states for buttons
 make hamburger accessible
