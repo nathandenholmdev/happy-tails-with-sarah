@@ -1,24 +1,12 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-
-hamburger.addEventListener("click", mobileMenu);
-
-function mobileMenu() {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-}
-
 const swiper = new Swiper(".swiper", {
-  // Optional parameters
   loop: true,
-  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
   },
   spaceBetween: 24,
 });
 function initMap() {
-  const center = { lat: 52.12358307853808, lng: -1.0716746091767593 };
+  const center = { lat: 52.123, lng: -1.071 };
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 9,
     center,
@@ -34,5 +22,4 @@ function initMap() {
     radius: 18000,
   });
 }
-
 window.initMap = initMap;

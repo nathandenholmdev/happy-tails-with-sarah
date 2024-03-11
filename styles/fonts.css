@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Champ";
+  src: url("../fonts/Champ-Black.eot");
+  src: local("../fonts/Champ Black"), local("../fonts/Champ-Black"),
+    url("../fonts/Champ-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Champ-Black.woff2") format("woff2"),
+    url("../fonts/Champ-Black.woff") format("woff"),
+    url("../fonts/Champ-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

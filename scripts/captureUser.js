@@ -16,8 +16,8 @@ async function handleUserDetailsSubmit(event) {
       }
     );
     const { slug } = await response.json();
-    window.location.href = `./embedded-signing-form.html?template=${slug}`;
+    window.location.href = `../pages/embedded-signing-form.html?template=${slug}`;
   } catch (error) {
-    window.location.href = "./error.html";
+    window.location.href = "../pages/error.html";
   }
 }

@@ -12,6 +12,7 @@ body,
 html {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -50,6 +51,10 @@ span {
 
 button {
   font-family: "Inter", sans-serif;
+}
+
+body.nav-open {
+  overflow: hidden;
 }
 
 /* Navbar */
@@ -110,7 +115,7 @@ button {
     transition: 0.3s;
     height: 100%;
     gap: 32px;
-    background-image: url("./paw-print.svg");
+    background-image: url("../assets/paw-print.svg");
     background-repeat: no-repeat;
     background-position: top right;
     background-color: var(--color-2);
@@ -145,7 +150,8 @@ button {
   background-color: var(--color-2);
   text-align: center;
   padding-bottom: 16px;
-  background-image: url(./stoke-orange.svg), url(stroke-blue.svg);
+  background-image: url(../assets/stoke-orange.svg),
+    url(../assets/stroke-blue.svg);
   background-position: top left, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: 50px, 50px;
@@ -178,7 +184,7 @@ button {
 /* About me*/
 
 .about-me-wrapper {
-  background: url(./paw-print.svg);
+  background: url(../assets/paw-print.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 75%;
@@ -211,6 +217,10 @@ button {
   border: none;
   cursor: pointer;
   margin-bottom: 24px;
+}
+
+.about-me-wrapper button a {
+  color: var(--dark---d0);
 }
 
 /* Services */
@@ -283,7 +293,7 @@ button {
 
 .review-header h3 {
   padding: 16px;
-  background-image: url(./qoute-left.svg);
+  background-image: url(../assets/qoute-left.svg);
   background-repeat: no-repeat;
   background-size: 24px;
   background-position-x: 90%;

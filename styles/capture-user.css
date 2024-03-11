@@ -1,8 +1,5 @@
 @import url("./constants.css");
 
-* {
-}
-
 h1,
 h2,
 h3,
@@ -59,7 +56,8 @@ select {
 
 .user-form-wrapper h1 {
   margin-bottom: 16px;
-  background-image: url(./stoke-orange.svg), url(stroke-blue.svg);
+  background-image: url(../assets/stoke-orange.svg),
+    url(../assets/stroke-blue.svg);
   background-position: top left, bottom right;
   background-repeat: no-repeat, no-repeat;
   background-size: 50px, 50px;
