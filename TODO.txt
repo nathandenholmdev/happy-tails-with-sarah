@@ -12,9 +12,11 @@ make contact me work
 
 address capture user styling
 optional WhatsApp send message
-error.html
+
 dogwalking.html
 petsitting.html
 desktop/tablet styling
 add loading states for buttons
 make hamburger accessible
+learn how to make images look good
+turn off close sidebar if we are naviagting away it delays navigation by 300ms
