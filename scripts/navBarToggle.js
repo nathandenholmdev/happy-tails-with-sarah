@@ -3,7 +3,10 @@ const navMenu = document.querySelector(".nav-menu");
 const body = document.querySelector("body");
 const navLinks = document.getElementsByClassName("nav-link");
 for (let navLink of navLinks) {
-  navLink.addEventListener("click", toggleNav);
+  const linkIsExternal = navLink.getAttribute("data-external");
+  if (!linkIsExternal) {
+    navLink.addEventListener("click", toggleNav);
+  }
 }
 hamburger.addEventListener("click", toggleNav);
 function toggleNav() {

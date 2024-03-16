@@ -2,6 +2,9 @@ const userDetailsForm = document.getElementById("user-form");
 userDetailsForm.addEventListener("submit", handleUserDetailsSubmit);
 async function handleUserDetailsSubmit(event) {
   event.preventDefault();
+  const submitButtonElement = document.getElementById("email-submit");
+  submitButtonElement.innerText = "Submitting";
+  submitButtonElement.disabled = true;
   const formData = new FormData(event.target);
   const { email, formType } = Object.fromEntries(formData);
   try {

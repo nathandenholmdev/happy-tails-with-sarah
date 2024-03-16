@@ -23,3 +23,9 @@ h2 {
 p {
   margin-bottom: 16px;
 }
+
+#dog-walking-locations {
+  height: 300px;
+  margin-bottom: 16px;
+  width: 100%;
+}

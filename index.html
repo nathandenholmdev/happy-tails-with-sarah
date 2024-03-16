@@ -19,6 +19,17 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "xkYB1Eerf1v9AaRpp",
+        });
+      })();
+    </script>
   </head>
   <body>
     <header class="header">
@@ -182,13 +193,28 @@
             <a href="#contact" class="nav-link">Contact me</a>
           </li>
           <li class="nav-item">
-            <a href="./pages/dog-walking.html" class="nav-link">Dog walking</a>
+            <a
+              data-external="true"
+              href="./pages/dog-walking.html"
+              class="nav-link"
+              >Dog walking</a
+            >
           </li>
           <li class="nav-item">
-            <a href="./pages/pet-sitting.html" class="nav-link">Pet sitting</a>
+            <a
+              data-external="true"
+              href="./pages/pet-sitting.html"
+              class="nav-link"
+              >Pet sitting</a
+            >
           </li>
           <li class="nav-item">
-            <a href="./pages/capture-user.html" class="nav-link">Documents</a>
+            <a
+              data-external="true"
+              href="./pages/capture-user.html"
+              class="nav-link"
+              >Documents</a
+            >
           </li>
         </ul>
         <div class="hamburger">
@@ -367,20 +393,29 @@
           <header>
             <h2>Got a question?</h2>
           </header>
-          <form>
+          <form id="contact-form">
             <div class="field">
               <label for="name">Name</label>
-              <input type="text" id="name" name="name" />
+              <input required type="text" id="name" name="name" />
             </div>
             <div class="field">
               <label for="mobile">Mobile number</label>
-              <input type="tel" id="mobile" name="mobile" />
+              <input required type="tel" id="mobile" name="mobile" />
             </div>
             <div class="field">
               <label for="message">Message</label>
-              <textarea id="message"></textarea>
+              <textarea required name="message" id="message"></textarea>
             </div>
-            <input type="submit" value="Send message" />
+            <input
+              id="contact-form-submit"
+              type="submit"
+              value="Send message"
+            />
+            <div
+              aria-live="assertive"
+              aria-label="Message sending"
+              id="contact-form-loader"
+            ></div>
           </form>
         </div>
       </section>

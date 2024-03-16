@@ -22,4 +22,31 @@ function initMap() {
     radius: 18000,
   });
 }
+window.onload = function () {
+  document
+    .getElementById("contact-form")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      toggleLoading(true);
+      emailjs.sendForm("service_yfkd8zb", "template_9ogim8t", this).then(
+        () => {
+          toggleLoading(false);
+        },
+        () => {
+          toggleLoading(false);
+        }
+      );
+    });
+};
+const toggleLoading = (isLoading) => {
+  const elem = document.getElementById("contact-form-submit");
+  if (isLoading) {
+    elem.setAttribute("value", "Sending...");
+    elem.disabled = true;
+  } else {
+    elem.setAttribute("value", "Send message");
+    elem.disabled = false;
+  }
+};
+
 window.initMap = initMap;
