@@ -15,9 +15,7 @@ REQUIRED
 desktop/tablet styling
 
 optimise images
-Ensure styling is perfect - forms outline bottom not all
-Dog walking prices
-Pet sitting prices
+Ensure styling is perfect 
 add correct copy / assets
 GDPR?
 

@@ -38,7 +38,6 @@ select {
   border: none;
   background: none;
   border-bottom: solid 1px var(--dark---d100);
-  padding-top: 32px;
 }
 
 #email-submit {
