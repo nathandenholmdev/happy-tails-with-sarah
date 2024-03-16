@@ -156,31 +156,64 @@
         </svg>
         <ul class="nav-menu">
           <li class="nav-item">
-            <a href="../index.html" class="nav-link">Home</a>
+            <a data-external="true" href="../index.html" class="nav-link"
+              >Home</a
+            >
           </li>
           <li class="nav-item">
-            <a href="../index.html#about-me" class="nav-link">About me</a>
+            <a
+              data-external="true"
+              href="../index.html#about-me"
+              class="nav-link"
+              >About me</a
+            >
           </li>
           <li class="nav-item">
-            <a href="../index.html#services" class="nav-link">Services</a>
+            <a
+              data-external="true"
+              href="../index.html#services"
+              class="nav-link"
+              >Services</a
+            >
           </li>
           <li class="nav-item">
-            <a href="../index.html#reviews" class="nav-link">Reviews</a>
+            <a
+              data-external="true"
+              href="../index.html#reviews"
+              class="nav-link"
+              >Reviews</a
+            >
           </li>
           <li class="nav-item">
-            <a href="../index.html#locations" class="nav-link">Locations</a>
+            <a
+              data-external="true"
+              href="../index.html#locations"
+              class="nav-link"
+              >Locations</a
+            >
           </li>
           <li class="nav-item">
-            <a href="../index.html#contact" class="nav-link">Contact me</a>
+            <a
+              data-external="true"
+              href="../index.html#contact"
+              class="nav-link"
+              >Contact me</a
+            >
           </li>
           <li class="nav-item">
-            <a href="./dog-walking.html" class="nav-link">Dog walking</a>
+            <a data-external="true" href="./dog-walking.html" class="nav-link"
+              >Dog walking</a
+            >
           </li>
           <li class="nav-item">
-            <a href="./pet-sitting.html" class="nav-link">Pet sitting</a>
+            <a data-external="true" href="./pet-sitting.html" class="nav-link"
+              >Pet sitting</a
+            >
           </li>
           <li class="nav-item">
-            <a href="./capture-user.html" class="nav-link">Documents</a>
+            <a data-external="true" href="./capture-user.html" class="nav-link"
+              >Documents</a
+            >
           </li>
         </ul>
         <button class="hamburger">
@@ -195,7 +228,7 @@
         <h1>We just need to confirm your details</h1>
         <form id="user-form">
           <div>
-            <label for="email">Email</label>
+            <label for="email"><h3>Email</h3></label>
             <input
               required
               aria-required="true"
@@ -205,12 +238,34 @@
             />
           </div>
           <div>
-            <label for="forms">Choose a form to complete</label>
-            <select required name="formType" id="forms">
-              <option value="contract">Pet sitting contract</option>
-              <option value="pet-information">Pet information</option>
-              <option value="vet-release">Vet release</option>
-            </select>
+            <h3>Choose a form to complete</h3>
+            <div>
+              <input
+                type="radio"
+                id="contract"
+                name="form-type"
+                value="contract"
+              />
+              <label for="contract">Petsitting contract</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="pet-information"
+                name="form-type"
+                value="pet-information"
+              />
+              <label for="pet-information">Pet information</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="vet-release"
+                name="form-type"
+                value="vet-release"
+              />
+              <label for="vet-release">Vet release form</label>
+            </div>
           </div>
         </form>
         <button id="email-submit" type="submit" form="user-form" value="Submit">

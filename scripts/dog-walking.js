@@ -12,16 +12,19 @@ async function initMap() {
   new AdvancedMarkerElement({
     map,
     position: { lat: 52.08366638248044, lng: -1.036224267984604 },
+    title: "tets",
   });
   // Bucknall wood
   new AdvancedMarkerElement({
     map,
     position: { lat: 52.100552511752376, lng: -1.0354296251096682 },
+    title: "tets",
   });
   // Water medows
   new AdvancedMarkerElement({
     map,
     position: { lat: 52.13471769538957, lng: -0.9880020790647283 },
+    title: "tets",
   });
   // Grand union
   new AdvancedMarkerElement({

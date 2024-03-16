@@ -35,6 +35,8 @@ POST RELEASE
 Google business account
 Backlinks
 restrict maps api key by domain
+Add logo to docuseal
+Make readme with archtechutre diagram
 
 
 

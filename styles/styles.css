@@ -351,6 +351,13 @@ textarea {
   background: none;
   border-bottom: solid 1px var(--dark---d100);
   padding-top: 32px;
+  outline: none;
+}
+
+.contact-form input[type="text"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-bottom: solid 1px var(--dark---d900);
 }
 
 .contact-form input[type="submit"] {
