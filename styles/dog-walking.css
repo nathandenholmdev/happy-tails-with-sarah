@@ -11,6 +11,8 @@ body {
 
 main {
   flex: 1;
+  position: relative;
+  bottom: 32px;
 }
 
 h1 {
@@ -28,4 +30,13 @@ p {
   height: 300px;
   margin-bottom: 16px;
   width: 100%;
+}
+
+.dog-walking-prices {
+  margin: 16px;
+  line-height: 1.6;
+}
+
+.dog-walking-prices li {
+  list-style: disc;
 }

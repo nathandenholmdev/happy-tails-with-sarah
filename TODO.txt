@@ -13,8 +13,7 @@ delete assets
 REQUIRED
 
 desktop/tablet styling
-add loading states for buttons
-make hamburger accessible
+
 optimise images
 Ensure styling is perfect - forms outline bottom not all
 Dog walking prices

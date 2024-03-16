@@ -130,6 +130,8 @@ body.nav-open {
     display: block;
     cursor: pointer;
     color: var(--dark---d500);
+    background: none;
+    border: none;
   }
 
   .hamburger.active .bar:nth-child(2) {
