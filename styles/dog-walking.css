@@ -1,5 +1,8 @@
 .dog-walking-content-wrapper {
   padding: 24px;
+  background-image: url("../assets/paw-print.svg");
+  background-repeat: space;
+  /* background-size: 100px; */
 }
 
 body {
@@ -42,9 +45,13 @@ p {
 }
 
 .swiper-slide img {
-  height: 350px;
-  width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   margin-bottom: 24px;
   border-radius: 16px;
+  height: 350px;
+  width: 100%;
+}
+
+.swiper {
+  margin-bottom: 16px;
 }
