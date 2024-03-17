@@ -289,15 +289,11 @@ body.nav-open {
 }
 
 .review {
+  height: 600px;
   border-radius: 16px;
   background-color: var(--secondary---s30);
-  border: solid 2px green;
-  height: 600px;
-}
-
-.review-header {
-  height: 50%;
-  overflow: scroll;
+  display: flex;
+  flex-direction: column;
 }
 
 .review-header h3 {
@@ -311,13 +307,17 @@ body.nav-open {
 
 .review-footer {
   padding: 16px;
-  height: 50%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .review img {
   width: 100%;
   border-radius: 16px;
+  max-height: 400px;
+}
+
+.swiper-slide {
+  height: 600px;
 }
 
 /* Areas covered + Contact */
