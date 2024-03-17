@@ -19,7 +19,7 @@ h1 {
   margin-bottom: 16px;
 }
 h2 {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 p {
@@ -39,4 +39,12 @@ p {
 
 .dog-walking-prices li {
   list-style: disc;
+}
+
+.swiper-slide img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 24px;
+  border-radius: 16px;
 }
