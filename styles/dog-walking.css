@@ -3,6 +3,12 @@
   padding-right: 24px;
 }
 
+.faqs li {
+  list-style: auto;
+  margin-left: 16px;
+  font-family: Champ;
+}
+
 .dog-walking-header {
   padding-top: 24px;
   padding-left: 24px;
