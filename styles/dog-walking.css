@@ -7,6 +7,9 @@
   list-style: auto;
   margin-left: 16px;
   font-family: Champ;
+}
+
+.faqs ::marker {
   font-size: 18px;
 }
 

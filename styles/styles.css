@@ -291,6 +291,13 @@ body.nav-open {
 .review {
   border-radius: 16px;
   background-color: var(--secondary---s30);
+  border: solid 2px green;
+  height: 600px;
+}
+
+.review-header {
+  height: 50%;
+  overflow: scroll;
 }
 
 .review-header h3 {
@@ -304,6 +311,8 @@ body.nav-open {
 
 .review-footer {
   padding: 16px;
+  height: 50%;
+  overflow: scroll;
 }
 
 .review img {
