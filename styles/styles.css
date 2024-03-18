@@ -389,3 +389,7 @@ textarea:focus {
 .contact-form label {
   display: inline-block;
 }
+
+.happy-tails-logo {
+  height: 75px;
+}

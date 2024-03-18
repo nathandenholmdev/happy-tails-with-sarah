@@ -27,13 +27,6 @@ p {
   word-break: break-word;
 }
 
-img {
-  max-height: 200px;
-  width: 100%;
-  border-radius: 8px;
-  margin-bottom: 16px;
-}
-
 .pet-sitting-prices {
   margin: 16px;
   line-height: 1.6;
@@ -41,4 +34,22 @@ img {
 
 .pet-sitting-prices li {
   list-style: disc;
+}
+
+.swiper-slide img {
+  object-fit: contain;
+  margin-bottom: 24px;
+  border-radius: 16px;
+  height: 350px;
+  width: 100%;
+}
+
+.faqs li {
+  list-style: auto;
+  margin-left: 16px;
+  font-family: Champ;
+}
+
+.faqs ::marker {
+  font-size: 18px;
 }
