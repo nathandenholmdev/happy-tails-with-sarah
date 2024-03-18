@@ -393,3 +393,15 @@ textarea:focus {
 .happy-tails-logo {
   height: 75px;
 }
+
+.whats-app {
+  position: fixed;
+  bottom: -24px;
+  right: -32px;
+  height: 100px;
+  z-index: 99;
+}
+
+.whats-app svg {
+  height: 75px;
+}
