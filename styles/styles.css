@@ -400,15 +400,18 @@ textarea:focus {
   height: 100px;
 }
 
-.floating-icon svg {
-  height: 75px;
-}
-
 .whats-app {
   bottom: -24px;
   right: -32px;
 }
+.whats-app svg {
+  height: 75px;
+}
 .messenger {
-  bottom: 50px;
+  bottom: 45px;
   right: 4px;
+}
+
+.messenger svg {
+  height: 70px;
 }
