@@ -394,24 +394,22 @@ textarea:focus {
   height: 75px;
 }
 
-.floating-icon {
-  position: fixed;
-  z-index: 99;
-  height: 100px;
+.floating-icon svg {
+  height: 75px;
 }
 
 .whats-app {
-  bottom: -24px;
-  right: -32px;
-}
-.whats-app svg {
-  height: 75px;
-}
-.messenger {
-  bottom: 40px;
-  right: 8px;
+  position: relative;
+  top: 8px;
 }
 
-.messenger svg {
-  height: 65px;
+.floating-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 99;
+  bottom: 0px;
+  right: -36px;
 }
