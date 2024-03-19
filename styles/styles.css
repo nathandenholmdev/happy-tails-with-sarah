@@ -410,6 +410,6 @@ textarea:focus {
   justify-content: center;
   position: fixed;
   z-index: 99;
-  bottom: 0px;
-  right: -36px;
+  bottom: 8px;
+  right: -24px;
 }
