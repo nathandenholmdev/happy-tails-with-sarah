@@ -408,10 +408,10 @@ textarea:focus {
   height: 75px;
 }
 .messenger {
-  bottom: 45px;
-  right: 4px;
+  bottom: 40px;
+  right: 8px;
 }
 
 .messenger svg {
-  height: 70px;
+  height: 65px;
 }
