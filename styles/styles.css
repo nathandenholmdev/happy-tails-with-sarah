@@ -314,6 +314,7 @@ body.nav-open {
   width: 100%;
   border-radius: 16px;
   max-height: 400px;
+  object-fit: contain;
 }
 
 .swiper-slide {
