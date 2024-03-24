@@ -2,14 +2,14 @@
 GENERAL
 page score
 accessiblity score
-make spacing var
-delete assets 
+make spacing var - not doing (whats the point. Do it next time)
 
 REQUIRED
 desktop/tablet styling
 Ensure styling is perfect on mobile
 Ensure styling is perfect on desktop
 add correct copy / assets
+debug embedded signing form
 
 NICE TO DO
 Download font rather than using google cdn
@@ -18,7 +18,7 @@ Why is the circle not perfect
 Add social media icons
 
 POST RELEASE
-Google business account
+Add website to google business
 Backlinks
 restrict maps api key by domain
 Add logo to docuseal
