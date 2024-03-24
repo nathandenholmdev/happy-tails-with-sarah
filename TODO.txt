@@ -1,35 +1,24 @@
 
 GENERAL
-
-Meta tags
 page score
 accessiblity score
-how to show description on google
-alt tags
 make spacing var
 delete assets 
 
-
 REQUIRED
-
 desktop/tablet styling
-
 optimise images
-Ensure styling is perfect 
+Ensure styling is perfect on mobile
+Ensure styling is perfect on desktop
 add correct copy / assets
-GDPR?
-
 
 NICE TO DO
-
-WhatsApp send icon
 Download font rather than using google cdn
 extract duplicated styles from styles.js
 Why is the circle not perfect
 Add social media icons
 
 POST RELEASE
-
 Google business account
 Backlinks
 restrict maps api key by domain
