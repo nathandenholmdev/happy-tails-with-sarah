@@ -2,27 +2,29 @@
 GENERAL
 page score
 accessiblity score
-make spacing var - not doing (whats the point. Do it next time)
+QA
 
 REQUIRED
 desktop/tablet styling
 Ensure styling is perfect on mobile
 Ensure styling is perfect on desktop
-add correct copy / assets
 debug embedded signing form
+Error footer need all 
+Final review with mum
+Page speed!!!
 
 NICE TO DO
 Download font rather than using google cdn
 extract duplicated styles from styles.js
 Why is the circle not perfect
-Add social media icons
+
 
 POST RELEASE
 Add website to google business
 Backlinks
 restrict maps api key by domain
 Add logo to docuseal
-Make readme with archtechutre diagram
+Add sitemap to google search console
 
 
 
