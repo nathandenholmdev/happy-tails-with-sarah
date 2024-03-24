@@ -6,7 +6,7 @@ new Swiper(".swiper", {
   spaceBetween: 24,
 });
 function initMap() {
-  const center = { lat: 52.123, lng: -1.071 };
+  const center = { lat: 52.12, lng: -1.07 };
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 9,
     center,
@@ -19,7 +19,8 @@ function initMap() {
     fillOpacity: 0.35,
     map,
     center,
-    radius: 18000,
+    radius: 15000,
+    path: google.maps.SymbolPath.CIRCLE,
   });
 }
 window.onload = function () {

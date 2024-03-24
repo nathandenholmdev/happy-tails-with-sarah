@@ -7,7 +7,6 @@ delete assets
 
 REQUIRED
 desktop/tablet styling
-optimise images
 Ensure styling is perfect on mobile
 Ensure styling is perfect on desktop
 add correct copy / assets

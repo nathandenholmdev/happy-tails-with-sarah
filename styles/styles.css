@@ -290,7 +290,8 @@ body.nav-open {
 
 .review {
   height: 600px;
-  border-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
   background-color: var(--secondary---s30);
   display: flex;
   flex-direction: column;
@@ -312,7 +313,6 @@ body.nav-open {
 
 .review img {
   width: 100%;
-  border-radius: 16px;
   max-height: 400px;
   object-fit: contain;
 }
