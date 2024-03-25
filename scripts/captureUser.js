@@ -23,13 +23,13 @@ async function handleUserDetailsSubmit(event) {
     submitButtonElement.innerText = "Submit";
     submitButtonElement.disabled = false;
     if (slug) {
-      window.location.href = `../pages/embedded-signing-form.html?template=${slug}`;
+      window.location.href = `../embedded-signing-form.html?template=${slug}`;
     } else {
-      window.location.href = "../pages/error.html";
+      window.location.href = "../error.html";
     }
   } catch (error) {
     submitButtonElement.innerText = "Submit";
     submitButtonElement.disabled = false;
-    window.location.href = "../pages/error.html";
+    window.location.href = "../error.html";
   }
 }
