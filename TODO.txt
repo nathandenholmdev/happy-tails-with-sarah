@@ -3,17 +3,12 @@ GENERAL
 page score
 accessiblity score
 QA
+Page speed!!!
 
 REQUIRED
-desktop/tablet styling
 Ensure styling is perfect on desktop
-debug embedded signing form
-Error footer need all 
-Page speed!!!
-stays saying submitting
 
 NICE TO DO
-Download font rather than using google cdn
 extract duplicated styles from styles.js
 Why is the circle not perfect
 
@@ -25,6 +20,7 @@ restrict maps api key by domain
 Add logo to docuseal
 Add sitemap to google search console
 change email js email
+limit waf to only our domain
 
 
 

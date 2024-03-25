@@ -7,7 +7,6 @@ async function handleUserDetailsSubmit(event) {
   submitButtonElement.disabled = true;
   const formData = new FormData(event.target);
   const { email, formType } = Object.fromEntries(formData);
-
   try {
     const response = await fetch(
       "https://dajho7fii3vyp.cloudfront.net/createDocusealSubmission",
@@ -20,9 +19,12 @@ async function handleUserDetailsSubmit(event) {
       }
     );
     const { slug } = await response.json();
+    submitButtonElement.innerText = "Submit";
+    submitButtonElement.disabled = false;
     window.location.href = `../pages/embedded-signing-form.html?template=${slug}`;
   } catch (error) {
-    console.log("errr", error);
+    submitButtonElement.innerText = "Submit";
+    submitButtonElement.disabled = false;
     window.location.href = "../pages/error.html";
   }
 }
