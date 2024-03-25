@@ -18,10 +18,15 @@ async function handleUserDetailsSubmit(event) {
         }),
       }
     );
+
     const { slug } = await response.json();
     submitButtonElement.innerText = "Submit";
     submitButtonElement.disabled = false;
-    window.location.href = `../pages/embedded-signing-form.html?template=${slug}`;
+    if (slug) {
+      window.location.href = `../pages/embedded-signing-form.html?template=${slug}`;
+    } else {
+      window.location.href = "../pages/error.html";
+    }
   } catch (error) {
     submitButtonElement.innerText = "Submit";
     submitButtonElement.disabled = false;
