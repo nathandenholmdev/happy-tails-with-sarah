@@ -313,8 +313,8 @@ body.nav-open {
   flex-direction: column;
 }
 
-.review-header h3 {
-  padding: 16px;
+.review-footer h3 {
+  margin-bottom: 12px;
   background-image: url(../assets/qoute-left.svg);
   background-repeat: no-repeat;
   background-size: 24px;
@@ -542,5 +542,18 @@ textarea:focus {
   }
   #contact {
     background-color: var(--color-2);
+  }
+  .review {
+    height: 450px;
+  }
+  .review img {
+    height: 250px;
+  }
+  .review-footer {
+    height: 200px;
+    overflow-y: auto;
+  }
+  .swiper-pagination {
+    display: none;
   }
 }
