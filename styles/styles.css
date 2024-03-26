@@ -186,11 +186,22 @@ body.nav-open {
 
 /* About me*/
 
-.about-me-wrapper {
+#about-me {
   background: url(../assets/paw-print.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 75%;
+  background-size: 60%;
+  display: flex;
+}
+
+.about-me-content-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about-me-content-inner img {
+  display: none;
 }
 
 .about-me-wrapper-content-wrapper {
@@ -267,6 +278,11 @@ body.nav-open {
 
 .services-content-wrapper > p {
   color: var(--dark---d0);
+}
+
+.services-content-inner {
+  display: flex;
+  flex-direction: column;
 }
 
 .service-card {
@@ -457,4 +473,65 @@ textarea:focus {
 .bounce {
   -webkit-animation: bounce 2s 2s;
   animation: bounce 2s 2s;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .mobile-hide {
+    display: initial;
+  }
+  .landing-image {
+    height: 350px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+  }
+  .call-to-action-wrapper p {
+    margin-bottom: 40px;
+  }
+  .call-to-action-wrapper {
+    padding-bottom: 0px;
+    background-image: url(../assets/stoke-orange.svg),
+      url(../assets/stroke-blue.svg);
+    background-position: 20% 0%, 95% 30%;
+    background-size: 100px, 100px;
+  }
+  .landing-image {
+    margin-bottom: -4px;
+  }
+  .about-me-content-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .about-me-content-inner img {
+    display: inline-block;
+    border-radius: 50px;
+    height: 400px;
+  }
+  .services-content-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+  }
+  .services-content-wrapper h2 {
+    text-align: center;
+  }
+
+  .service-card {
+    width: 30%;
+  }
 }
