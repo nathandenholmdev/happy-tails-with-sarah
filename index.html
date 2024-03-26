@@ -855,52 +855,90 @@
           </div>
         </div>
       </section>
-      <section id="locations">
-        <div class="areas-covered">
-          <header>
-            <h2>Areas covered</h2>
-          </header>
-          <p>
-            I operate within the South Northants area, including Towcester,
-            Brackley, Silverstone, Stony Stratford, Bugbrooke and the
-            surrounding villages.
-          </p>
-          <div id="map"></div>
-        </div>
-      </section>
-      <section id="contact">
-        <div class="contact-form">
-          <header>
-            <h2>Got a question?</h2>
-          </header>
-          <form id="contact-form">
-            <div class="field">
-              <label for="name">Name</label>
-              <input required type="text" id="name" name="name" />
-            </div>
-            <div class="field">
-              <label for="mobile">Mobile number</label>
-              <input required type="tel" id="mobile" name="mobile" />
-            </div>
-            <div class="field">
-              <label for="message">Message</label>
-              <textarea required name="message" id="message"></textarea>
-            </div>
-            <input
-              id="contact-form-submit"
-              type="submit"
-              value="Send message"
-            />
-            <div
-              aria-live="assertive"
-              aria-label="Message sending"
-              id="contact-form-loader"
-            ></div>
-          </form>
-        </div>
-      </section>
+      <div class="areas-covered-contact-container">
+        <section id="locations">
+          <div class="areas-covered">
+            <header>
+              <h2>Areas covered</h2>
+            </header>
+            <p>
+              I operate within the South Northants area, including Towcester,
+              Brackley, Silverstone, Stony Stratford, Bugbrooke and the
+              surrounding villages.
+            </p>
+            <div id="map"></div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="contact-form">
+            <header>
+              <h2>Got a question?</h2>
+            </header>
+            <form id="contact-form">
+              <div class="field">
+                <label for="name">Name</label>
+                <input required type="text" id="name" name="name" />
+              </div>
+              <div class="field">
+                <label for="mobile">Mobile number</label>
+                <input required type="tel" id="mobile" name="mobile" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea required name="message" id="message"></textarea>
+              </div>
+              <input
+                id="contact-form-submit"
+                type="submit"
+                value="Send message"
+              />
+              <div
+                aria-live="assertive"
+                aria-label="Message sending"
+                id="contact-form-loader"
+              ></div>
+            </form>
+          </div>
+        </section>
+      </div>
     </main>
     <footer class="footer">
+      <div>
+        <h6>LINKS</h6>
+        <ul class="links">
+          <div>
+            <li>
+              <a href=".">Home</a>
+            </li>
+            <li>
+              <a href="#about-me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a href="#locations">Locations</a>
+            </li>
+          </div>
+          <div>
+            <li class="nav-item">
+              <a href="#contact">Contact me</a>
+            </li>
+            <li class="nav-item">
+              <a href="./dog-walking.html">Dog walking</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pet-sitting.html">Pet sitting</a>
+            </li>
+            <li class="nav-item">
+              <a href="./capture-user.html">Documents</a>
+            </li>
+          </div>
+        </ul>
+      </div>
       <div>
         <h6>CONTACT</h6>
         <ul>
@@ -914,38 +952,7 @@
           </li>
         </ul>
       </div>
-      <div>
-        <h6>LINKS</h6>
-        <ul>
-          <li>
-            <a href=".">Home</a>
-          </li>
-          <li>
-            <a href="#about-me">About me</a>
-          </li>
-          <li class="nav-item">
-            <a href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a href="#reviews">Reviews</a>
-          </li>
-          <li class="nav-item">
-            <a href="#locations">Locations</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact">Contact me</a>
-          </li>
-          <li class="nav-item">
-            <a href="./dog-walking.html">Dog walking</a>
-          </li>
-          <li class="nav-item">
-            <a href="./pet-sitting.html">Pet sitting</a>
-          </li>
-          <li class="nav-item">
-            <a href="./capture-user.html">Documents</a>
-          </li>
-        </ul>
-      </div>
+
       <div>
         <h6>COMPANY</h6>
         <span>Copyright 2024 Happy tails with Sarah</span>

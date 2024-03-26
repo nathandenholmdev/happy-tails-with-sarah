@@ -530,8 +530,17 @@ textarea:focus {
   .services-content-wrapper h2 {
     text-align: center;
   }
-
   .service-card {
     width: 30%;
+  }
+  .areas-covered-contact-container {
+    display: flex;
+  }
+  .areas-covered-contact-container #locations,
+  #contact {
+    flex: 1;
+  }
+  #contact {
+    background-color: var(--color-2);
   }
 }
