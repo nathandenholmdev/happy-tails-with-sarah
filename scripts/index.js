@@ -3,10 +3,6 @@ new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
-  autoplay: {
-    delay: 3000,
-    pauseOnMouseEnter: true,
-  },
   breakpoints: {
     640: {
       slidesPerView: 3,
