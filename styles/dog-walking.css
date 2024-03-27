@@ -41,6 +41,8 @@ main {
   flex: 1;
   position: relative;
   bottom: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 h1 {
@@ -85,7 +87,20 @@ p {
   flex-direction: column;
 }
 
-@media only screen and (min-width: 768px) {
+.gallery {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 24px;
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+@media only screen and (min-width: 1200px) {
   main {
     padding-right: 56px;
     padding-left: 56px;
@@ -144,8 +159,7 @@ p {
     object-fit: cover;
     border-radius: 8px;
   }
-
-  .grid-col-span-2 {
-    grid-column: span 2;
-  }
+}
+.grid-col-span-2 {
+  grid-column: span 2;
 }

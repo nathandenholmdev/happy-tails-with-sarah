@@ -36,14 +36,6 @@ p {
   list-style: disc;
 }
 
-.swiper-slide img {
-  object-fit: contain;
-  margin-bottom: 24px;
-  border-radius: 16px;
-  height: 350px;
-  width: 100%;
-}
-
 .faqs li {
   list-style: auto;
   margin-left: 16px;
@@ -52,4 +44,62 @@ p {
 
 .faqs ::marker {
   font-size: 18px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 24px;
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .flex-container section {
+    width: 50%;
+  }
+  main {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+  .faqs {
+    display: flex;
+    gap: 24px;
+  }
+  .faqs div {
+    width: 50%;
+  }
+  .gallery {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 24px;
+  }
+
+  .gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
 }
