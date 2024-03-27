@@ -90,11 +90,3 @@ async function initMap() {
 }
 
 initMap();
-
-new Swiper(".swiper", {
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-  },
-  spaceBetween: 24,
-});

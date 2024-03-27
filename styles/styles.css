@@ -553,7 +553,4 @@ textarea:focus {
     height: 200px;
     overflow-y: auto;
   }
-  .swiper-pagination {
-    display: none;
-  }
 }
