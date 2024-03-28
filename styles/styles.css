@@ -53,10 +53,6 @@ button {
   font-family: "Inter", sans-serif;
 }
 
-body.nav-open {
-  overflow: hidden;
-}
-
 /* Navbar */
 
 .navbar {
@@ -103,6 +99,9 @@ body.nav-open {
 }
 
 @media only screen and (max-width: 850px) {
+  body.nav-open {
+    overflow: hidden;
+  }
   .nav-menu {
     position: fixed;
     left: -100%;
