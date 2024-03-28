@@ -12,24 +12,6 @@
   padding-top: 24px;
 }
 
-.about-dog-walking {
-  background-image: url("../assets/paw-print.svg");
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-}
-.gallery {
-  background-image: url("../assets/paw-print.svg");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-clip: padding-box;
-}
-.locations {
-  background-image: url("../assets/paw-print.svg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-clip: padding-box;
-}
-
 body {
   background-color: var(--color-2);
   min-height: 100vh;
