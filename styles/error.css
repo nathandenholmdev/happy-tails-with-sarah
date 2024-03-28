@@ -7,6 +7,10 @@ body {
 
 main {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-2);
 }
 
 .error-content-wrapper {
@@ -16,10 +20,9 @@ main {
 }
 
 .error-content-wrapper {
-  background-image: url(../assets/paw-print.svg);
-  background-size: 200px;
-  background-repeat: no-repeat;
-  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
