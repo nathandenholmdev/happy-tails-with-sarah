@@ -7,6 +7,8 @@ Page speed!!!
 
 REQUIRED
 Ensure styling is perfect on desktop
+Fix tablet styles.. footer cta image etc
+Reviews new design
 
 NICE TO DO
 extract duplicated styles from styles.js
