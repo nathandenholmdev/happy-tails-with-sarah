@@ -98,7 +98,7 @@ button {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 975px) {
   body.nav-open {
     overflow: hidden;
   }
@@ -476,6 +476,32 @@ textarea:focus {
 
 .mobile-hide {
   display: none;
+}
+
+@media only screen and (min-width: 850px) {
+  .about-me-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .about-me-wrapper-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-me-wrapper-content-wrapper button {
+    align-self: flex-start;
+  }
+  .areas-covered-contact-container {
+    padding-left: 56px;
+    padding-right: 56px;
+    background-color: var(--color-2);
+  }
+  #reviews {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
